@@ -1,0 +1,93 @@
+.leftNavbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.rightNavbar{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.imgLogo {
+  width: 91px;
+  height: 16.65px;
+}
+
+.lema {
+  font-size: 8px;
+}
+
+.NavBarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 88px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.navbarButtons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbarContainer {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarContainer a {
+  font-size: 16px;
+  color: var(--dark);
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+
+}
+
+.navbarContainer a:hover{
+  background-color: var(--color-primary);
+  border-radius: 8px;
+}
+
+.boxButtons {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+/*Breakpoints*/
+@media screen and (min-width: 768px) {
+  .imgLogo {
+    width: 140px;
+    height: 25.61px;
+  }
+
+  .NavBarHeader {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .imgLogo {
+    width: 240px;
+    height: 43.9px;
+  }
+
+  .lema {
+    font-size: 11px;
+  }
+
+  .NavBarHeader {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+}

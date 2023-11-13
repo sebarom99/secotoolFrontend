@@ -1,0 +1,36 @@
+.sectionLogin{
+    background-color: #3A3939;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.bgLogin{
+    background-color: #ffdb27;
+    border-bottom-right-radius: 100% 40px;
+    border-bottom-left-radius: 100% 40px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.boxMsj{
+    z-index: 1;
+    display: flex;
+    align-self: center;
+}
+
+/*Breakpoints*/
+@media screen and (min-width: 768px) {
+    .boxMsj{
+        width: 610px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .sectionLogin form{
+        align-self: center;
+    }
+}

@@ -1,0 +1,48 @@
+.modalBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.formNewCharacteristic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 16px;
+}
+
+button {
+  padding: 12px 36px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.buttonsContainer :nth-child(1) {
+  background-color: #45a42d;
+  color: white;
+}
+
+.iconOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  padding-left: 8px;
+}
+
+.dialogClassName {
+  width: 100%;
+}

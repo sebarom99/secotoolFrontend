@@ -1,0 +1,68 @@
+/* Aqui van todos los estilos para el formulario del nuevo producto*/
+.formNewProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0;
+}
+
+.formNewProduct button {
+  border-radius: 8px;
+  background: #45a42d;
+  color: #f9f9f9;
+  padding: 14px 24px;
+  width: 560px;
+}
+
+.formNewProduct label {
+  margin: 13px;
+}
+
+.formNewProduct label input {
+  height: 40px;
+  width: 640px;
+  padding: 8px;
+}
+
+.containerModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.centeredForm {
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+}
+
+.noProducstMessage {
+  text-align: center;
+  height: 60vh;
+}
+
+button {
+  padding: 12px 36px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.buttonsContainer :nth-child(1) {
+  background-color: #45a42d;
+  color: white;
+}
+
+.dialogClassName {
+  width: 100%;
+}

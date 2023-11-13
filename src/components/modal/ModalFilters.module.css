@@ -1,0 +1,9 @@
+.btnFiltros{
+    background-color: transparent!important;
+    padding: 8px 16px;
+    color:#747474;
+}
+
+.btnFiltros i{
+    padding-left: 8px;
+}

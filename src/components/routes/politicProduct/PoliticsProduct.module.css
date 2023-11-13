@@ -1,0 +1,116 @@
+.container {
+  width: 100%;
+  text-align: left;
+  font-weight: 400;
+}
+
+.upTable {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+
+.upTable h1 {
+  color: #343434;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tableContainer {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+}
+
+.tableHeader {
+  width: 100%;
+  height: auto;
+  padding: 16px 0;
+  border-radius: 8px 8px 0 0;
+  background-color: var(--dark);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 19px;
+}
+
+.tableHeader span:nth-child(1) {
+  width: 20%;
+  text-align: left;
+  padding-left: 42px;
+}
+
+.tableHeader span:nth-child(2) {
+  width: 65%;
+  text-align: center;
+}
+
+.tableHeader span:nth-child(3) {
+  width: 15%;
+  text-align: center;
+}
+
+.tableHeader span:nth-child(4) {
+  width: 15%;
+  text-align: center;
+}
+
+/* --------------------------------CSS MODALS------------------------> */
+
+.formNewProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0;
+}
+
+.formNewProduct button {
+  border-radius: 8px;
+  background: #45a42d;
+  color: #f9f9f9;
+  padding: 14px 24px;
+  width: 560px;
+}
+
+.formNewProduct label {
+  margin: 13px;
+}
+
+.formNewProduct label input {
+  height: 40px;
+  width: 640px;
+}
+
+.containerModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.centeredForm {
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+}
+
+.noProducstMessage {
+  text-align: center;
+  height: 60vh;
+}

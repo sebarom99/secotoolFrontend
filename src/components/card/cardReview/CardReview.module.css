@@ -1,0 +1,20 @@
+.cardReview{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.cardReview h4{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.cardReview span, .cardReview p{
+    font-size: 13px;
+}
+
+.cardReview form{
+    align-items: flex-start;
+}

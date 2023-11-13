@@ -1,0 +1,63 @@
+/* Aqui van todos los estilos para el formulario del nuevo producto*/
+.formNewProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0;
+}
+
+.formNewProduct button {
+  border-radius: 8px;
+  background: #45a42d;
+  color: #f9f9f9;
+  padding: 14px 24px;
+  width: 560px;
+}
+
+.formNewProduct label {
+  margin: 13px;
+}
+
+.formNewProduct label input {
+  height: 40px;
+  width: 640px;
+  padding: 8px;
+}
+
+.containerModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.centeredForm {
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+}
+
+.noProducstMessage {
+  text-align: center;
+  height: 60vh;
+}
+
+.uploaderN {
+  width: 99%;
+}
+
+.customInput {
+  border: 1px solid var(--darkGrey); /* Establece el estilo de borde aquí */
+}
+
+.errorMessage {
+  color: red;
+  font-size: 15px;
+}
+
+.formNewProduct input::placeholder, .formNewProduct textarea::placeholder{
+  font-size: 14px;
+  color: #cdcdcd;
+}

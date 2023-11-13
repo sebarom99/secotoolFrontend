@@ -1,0 +1,66 @@
+.contenedorCardsSkeleton {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 8px;
+  max-width: 100%;
+}
+
+.elemento {
+  max-width: 100%;
+  background-color: rgb(
+    255,
+    255,
+    255
+  ); /* Establece el fondo inicial como transparente */
+  opacity: 0.7;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  overflow: hidden; /* Evita que el fondo se salga de la tarjeta */
+  position: relative; /* Permite que los elementos secundarios sean posicionados relativamente a esta tarjeta */
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: -100% 0; /* Comienza con el fondo completamente a la izquierda */
+  }
+  100% {
+    background-position: 100% 0; /* Termina con el fondo completamente a la derecha */
+  }
+}
+
+/* Aplica la animación a fondo en lugar de todo el elemento */
+.elemento::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 25%,
+    #e9e9e9 50%,
+    transparent 75%
+  );
+  background-size: 200% 100%; /* Asegura que el fondo sea el doble del ancho del elemento */
+  animation: skeleton-loading 3s linear infinite;
+}
+
+@media screen and ( min-width: 320px ) {
+  .elemento{
+    height: 370px;
+  } 
+}
+
+@media screen and ( min-width: 768px ) {
+  .elemento{
+    height: 320px;
+  } 
+}
+
+@media screen and ( min-width: 1024px ) {
+  .elemento{
+    height: 220px;
+  } 
+}

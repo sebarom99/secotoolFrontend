@@ -1,0 +1,245 @@
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #3a3939;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-primary: #ffdb27;
+  --color-secondary: #e61717;
+  --dark: #3a3939;
+  --lightGrey: #efecec;
+  --darkGrey: #747474;
+  --white: #f9f9f9;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #242424;
+}
+
+li {
+  list-style: none;
+}
+
+/*Header*/
+header {
+  background-color: var(--color-primary);
+  /* position: fixed;
+  width: 100%;
+  z-index: 1000; */
+}
+
+/*Buttons*/
+.button-transparent {
+  background-color: transparent;
+  border: none;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 0;
+  color: #3a3939;
+}
+
+.button-transparent i {
+  padding-right: 8px;
+}
+
+.button-lg,
+.button-primary-transparent {
+  background-color: transparent;
+  color: var(--dark);
+  border: 1px solid var(--dark);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button-primary-transparent {
+  padding: 4px 8px;
+}
+
+.button-cta {
+  background-color: #4a6ac9;
+  border: none;
+  color: var(--white);
+}
+
+.button-lg {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/*Fonts*/
+.font-btn-transparent {
+  font-size: 13px;
+}
+
+.font-sm {
+  font-size: 13px;
+}
+
+.title-lg {
+  font-size: 19px;
+}
+
+.font-xl {
+  font-size: 23px;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+/*Spacings*/
+.pt-24 {
+  padding-top: 24px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-dir-colum {
+  flex-direction: column;
+}
+
+.pt-large {
+  padding-top: 102px;
+}
+
+.jc-space-bw{
+  justify-content: space-between;
+}
+
+/*React suite styles*/
+
+/* ------ TAGS TABLES ADMIN -------- */
+
+.rs-tag {
+  background-color: var(--dark);
+  color: var(--white);
+  width: auto;
+}
+
+.rs-tag-md .rs-tag-icon-close {
+  padding: 0 6px;
+}
+
+.rs-picker {
+  width: 100%;
+  min-height: 40px;
+  align-items: center;
+  border: 1px solid var(--darkGrey);
+  display: flex;
+  border-radius: 8px;
+}
+
+  .rs-picker-has-value.rs-picker-cleanable .rs-picker-toggle.rs-btn, .rs-picker-toggle-wrapper .rs-picker-toggle.rs-btn {
+    border: none;
+    padding-left: 0px;
+  }
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value, .rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value{
+  color: var(--dark) !important;
+}
+
+.rs-picker-toggle .rs-picker-toggle-placeholder{
+  padding-left: 8px;
+}
+
+.rs-input-group .rs-picker-toggle-caret{
+  display: none !important;
+}
+
+.rs-input-group .rs-picker-toggle-textbox{
+  padding: 0 !important;
+}
+
+.rs-input-group .rs-picker-toggle-placeholder{
+  padding: 0 !important;
+}
+
+/*Calendar*/
+
+.rs-picker-toggle {
+  height: 5vh;
+  border: none;
+  padding: 0;
+}
+
+.rs-stack {
+  height: 100%;
+}
+
+.rs-picker-daterange-menu .rs-picker-daterange-panel-show-one-calendar .rs-picker-toolbar {
+  max-width: none!important;
+}
+
+.rs-picker-daterange-header{
+  text-align: center;
+}
+
+.rs-auto-complete .rs-input{
+  min-height: 40px;
+}
+
+/*Breakpoints*/
+@media screen and (min-width: 768px) {
+  .title-lg {
+    font-size: 23px;
+  }
+
+  .font-xl {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title-lg {
+    font-size: 33px;
+  }
+  .font-xl {
+    font-size: 33px;
+  }
+
+  .font-btn-transparent {
+    font-size: 16px;
+  }
+
+  .font-sm {
+    font-size: 19px;
+  }
+
+  .button-primary-transparent {
+    padding: 8px 16px;
+  }
+
+  .button-transparent {
+    font-size: 16px;
+  }
+}

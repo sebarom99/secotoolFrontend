@@ -1,0 +1,81 @@
+.boxEndForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inputLink {
+  width: 80%;
+}
+
+.iconsShare {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  border: 1px solid #c2c2c2;
+  border-radius: 50px;
+  padding: 4px 8px;
+  font-size: 13px;
+  background: transparent;
+}
+
+.active{
+  background: rgb(58, 111, 234);
+  color: var(--white);
+}
+
+.icons i {
+  font-size: 19px;
+}
+
+.boxEndForm textarea {
+  height: auto;
+  border: 1px solid #c2c2c2;
+}
+
+.boxEndForm textarea::placeholder{
+  font-size: 13px;
+  color: #c2c2c2;
+}
+
+.buttonCompartir {
+  background-color: rgb(58, 111, 234);
+  color: var(--white);
+}
+
+.boxRedes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.boxRedes p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+
+.formShare{
+  align-items: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .boxEndForm {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .buttonCompartir{
+    width: 30%;
+    align-self: center;
+  }
+}

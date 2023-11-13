@@ -1,0 +1,35 @@
+.listCaract{
+    font-size: 13px;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.listCaract i{
+    padding-right: 8px;
+}
+
+.listCaract li{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+@media screen and (min-width: 768px){
+    .listCaract{
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .listCaract{
+        column-count: 4;
+        column-gap: 20px
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .listCaract li{
+        font-size: 19px;
+    }
+}

@@ -1,0 +1,58 @@
+.modalReview {
+    text-align: center;
+  }
+  label {
+    width: auto;
+  }
+  
+  .modalReview form {
+    gap: 24px;
+  }
+  
+  .modalReview form h4 {
+    margin-bottom: 8px;
+  }
+  
+  .dialogClassName {
+    width: 100%;
+  }
+  
+  .textArea {
+    padding: 8px;
+  }
+  
+  .footerButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    height: 5vh;
+    margin: 0;
+  }
+  
+  .footerButtons Button {
+    height: 100%;
+    width: 20%;
+    padding: 0 8px;
+  }
+  
+  .footerButtons :nth-child(2) {
+    margin-left: 0;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .mrTitle {
+      font-size: 27px;
+    }
+    .mrSubtitle {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footerButtons :nth-child(1) {
+      width: 40%;
+    }
+  }
+  

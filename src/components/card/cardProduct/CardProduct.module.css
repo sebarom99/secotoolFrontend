@@ -1,0 +1,153 @@
+.contenedorGeneral {
+  width: 100%;
+}
+
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  background-color: white;
+  height: 100%;
+}
+
+.textoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.imgContainer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 8px;
+  display: block;
+}
+
+.titleCard {
+  font-size: 13px;
+  align-self: flex-start;
+  font-weight: 400;
+  padding-bottom: 8px;
+  margin-bottom: 0px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+  height: 40px;
+}
+
+.textPriceCard {
+  font-size: 16px;
+}
+
+.contenedorCorazon {
+  position: relative;
+}
+
+.corazon {
+  z-index: 1;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.boxScore {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.boxScore ul li {
+  width: 8px !important;
+}
+
+.boxScore ul li div {
+  width: 14px !important;
+  font-size: 13px;
+}
+
+.boxScore span {
+  font-size: 13px;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .titleCard {
+    font-size: 16px;
+    height: 48px;
+  }
+  .textPriceCard {
+    font-size: 19px;
+  }
+  .boxScore span {
+    font-size: 16px;
+  }
+
+  .boxScore ul li {
+    width: 16px !important;
+  }
+
+  .boxScore ul li div {
+    width: 14px !important;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .textPriceCard {
+    font-size: 23px;
+  }
+  .textoCard {
+    padding-left: 32px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+  }
+
+  .boxScore ul li div {
+    width: auto;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .corazon {
+    top: 5px;
+    right: 5px;
+  }
+  .img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}

@@ -1,0 +1,135 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 88px;
+  color: var(--dark);
+}
+
+.navbarButtons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0;
+  gap: 64px;
+  width: 50%;
+}
+
+.navbarButtons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbarButtons div {
+    display: none;
+  }
+}
+
+.leftNavbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+}
+
+.navLink {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  color: var(--dark);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.navLink :hover {
+  text-decoration: none;
+}
+
+.navLinkActive {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  color: var(--white);
+  background-color: var(--dark);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.closeSesion {
+  text-decoration: none;
+  border-radius: 3px;
+  border: none;
+  color: var(--dark);
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .leftNavbar {
+    width: 70%;
+  }
+
+  .slogan {
+    font-size: 8px;
+  }
+
+  .navbarButtons div {
+    gap: 8px;
+  }
+
+  .closeSesion span {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .leftNavbar {
+    width: 85%;
+  }
+
+  .slogan {
+    font-size: 11px;
+  }
+
+  .navbarButtons div {
+    gap: 8px;
+  }
+
+  .closeSesion span {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .leftNavbar {
+    width: 100%;
+  }
+
+  .slogan {
+    font-size: 11px;
+  }
+
+  .navbarButtons div {
+    gap: 16px;
+  }
+}

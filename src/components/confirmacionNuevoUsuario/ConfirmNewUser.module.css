@@ -1,0 +1,22 @@
+.confirmacionNuevoUsusario{
+    background-color: #3A3939;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.bgCrearCuenta{
+    background-color: #ffdb27;
+    border-bottom-right-radius: 100% 40px;
+    border-bottom-left-radius: 100% 40px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.headerYconfirm{
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}

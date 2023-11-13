@@ -1,0 +1,157 @@
+.headerDefault {
+  background-color: var(--color-primary);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerDefault .leftNavbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.headerDefault .imgLogo {
+  width: 91px;
+  height: 16.65px;
+}
+
+.headerDefault .lema {
+  font-size: 8px;
+}
+
+.headerDefaultNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 88px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.headerDefault .navbarButtons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.headerDefault .navbarContainer {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerDefault .navbarContainer a {
+  font-size: 16px;
+  color: var(--dark);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.headerDefault .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.headerDefault .dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: var(--dark);
+  padding: 32px 16px;
+  background-color: var(--color-primary);
+  font: inherit;
+  margin: 0;
+}
+
+.headerDefault .dropbtn i {
+  padding-left: 8px;
+}
+
+.headerDefault .navbarContainer a:hover,
+.dropdown:hover .dropbtn {
+  background-color: var(--color-primary);
+}
+
+.headerDefault .navbarContainer a:hover {
+  border-radius: 8px;
+}
+
+.headerDefault .dropdownContent, .subDropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding-bottom: 24px;
+}
+
+.headerDefault .dropdownContent .header {
+  background: var(--white);
+  color: var(--dark);
+}
+
+.headerDefault .dropdownContent .header h2 {
+  font-weight: 500;
+  margin-left: 0px;
+}
+
+.headerDefault .dropdown:hover .dropdownContent,  .headerDefault .subDropdown:hover .subDropdownContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.subDropdownContent {
+  margin-top: 20px; /* Adjust this value as needed for spacing */
+}
+
+.boxButtonsContainer {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-end; /* Align buttons to the right */
+}
+
+.boxButtons{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+/*Breakpoints*/
+@media screen and (min-width: 768px) {
+  .headerDefault .imgLogo {
+    width: 140px;
+    height: 25.61px;
+  }
+
+  .headerDefaultNavbar{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .headerDefault .imgLogo {
+    width: 240px;
+    height: 43.9px;
+  }
+
+  .headerDefault .lema {
+    font-size: 11px;
+  }
+
+  .headerDefaultNavbar{
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+}

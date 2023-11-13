@@ -1,0 +1,12 @@
+.containerCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  height: 180px;
+}
+
+.name {
+  position: relative;
+  z-index: 1;
+}

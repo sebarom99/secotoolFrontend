@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--lightGrey);
+  color: var(--black);
+  padding: 16px 0;
+}
+
+.container span:nth-child(1) {
+  width: 20%;
+  text-align: left;
+  font-weight: 600;
+  padding-left: 42px;
+}
+
+.container span:nth-child(2) {
+  width: 30%;
+  text-align: left;
+}
+
+.container :nth-child(3) {
+  width: 15%;
+  text-align: center;
+}
+
+.container :nth-child(4) {
+  width: 15%;
+  text-align: center;
+}
+
+.container i {
+  cursor: pointer;
+  color: var(--color-secondary);
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.container i:hover {
+  opacity: 0.5;
+}
+
+.fa-plus-square-o {
+  color: var(--secondary);
+}
+
+.iconAd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}

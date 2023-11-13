@@ -1,0 +1,60 @@
+.formularioLog {
+  /*position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 296px;*/
+  z-index: 2;
+  position: relative;
+  padding-bottom: 32px;
+}
+
+.formularioLog label, .formularioLog button{
+  font-family: "Poppins", sans-serif;
+}
+
+.formularioLog button{
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 16px;
+  width: 100%;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.contenedorForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 24px;
+  gap: 24px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 8px;
+}
+
+.customLink{
+  width: 100%;
+  display: block;
+  text-decoration: none;
+}
+
+.btnLogin{
+  background-color: #4a6ac9!important;
+  color: var(--white)!important;
+}
+
+/*Breakpoints*/
+@media screen and (min-width: 768px) {
+  .formularioLog{
+    width: 610px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .formulario{
+    width: 610px;
+  }
+}

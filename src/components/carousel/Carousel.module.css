@@ -1,0 +1,149 @@
+.containerCarouselMobile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.imgProduct{
+    width: 296px;
+    height: 222px;
+    border-radius: 4px;
+}
+
+.slide {
+	max-width: 100%;
+	height: auto;
+	opacity: 0;
+	transition: opacity 0.75s ease-in-out;
+}
+
+.slide.active {
+	opacity: 1;
+}
+
+.boxControlsCarousel{
+    width: calc(100% - 94px);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    /*top: 318px;*/
+    top: 363px;
+}
+
+.boxControlsCarousel button{
+    background-color: var(--dark);
+    color: var(--white);
+    border-radius: 100%;
+    border: none;
+    padding: 4px 10px;
+}
+
+.boxControlsCarousel button i{
+    font-size: 16px;
+}
+
+.containerCarousel{
+    display: none;
+}
+
+.indicadorImg{
+    align-self: end;
+    background-color: #8e8e93;
+    color: aliceblue;
+    border-radius: 12px;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+}
+
+.btnChevron i{
+    padding-left: 8px;
+}
+
+@media screen and (min-width: 768px){
+    .containerCarouselMobile{
+        display: none;
+    }
+
+    .containerCarousel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 16px;
+    }
+
+    .containerCarousel button{
+        align-self: end;
+    }
+
+    .carouselGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        max-height: 640px;
+    }
+
+    .leftColumn {
+        grid-row: span 2;
+    }
+
+    .leftColumn img{
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+    }
+
+    .rightColumn {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .rightImgProduct{
+        width: 144px;
+        height: 108px;
+        max-height: 108px;
+        border-radius: 4px;
+    }
+
+    .imgProduct {
+        max-width: 100%;
+        height: 100%;
+        max-height: 222px;
+    }
+
+    .moreImagesContainer{
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .moreImagesContainer img{
+        width: 133px;
+        height: 108px;
+        border-radius: 4px;
+    }
+
+}
+
+@media screen and (min-width: 1440px){
+    .rightImgProduct{
+        width: 245px;
+        height: 234px;
+        max-height: 234px;
+    }
+
+    .imgProduct {
+        height: 480px;
+        max-height: 480px;
+    }
+
+    .moreImagesContainer img{
+        width: 312px;
+        height: 234px;
+    }
+}

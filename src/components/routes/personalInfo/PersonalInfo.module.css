@@ -1,0 +1,50 @@
+.containerInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.boxInfo{
+    padding: 8px;
+    border: 1px solid #C5C5C5;
+    border-radius: 4px;
+}
+
+.boxInfo span{
+    font-size: 13px;
+}
+
+.boxInfo p{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.sectionPersonalInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.inputForm::placeholder {
+    font-size: 13px;
+}
+
+.formPersonalInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.selectForm{
+    height: 5vh;
+    border-radius: 6px;
+    background: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .sectionPersonalInfo{
+        width: 50%;
+        margin-right: 20%;
+    }
+}

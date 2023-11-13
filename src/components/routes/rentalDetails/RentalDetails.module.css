@@ -1,0 +1,133 @@
+.sectionRentalDetails {
+  padding-top: 112px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headRentalDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.headRentalDetails h3 {
+  align-self: center;
+}
+
+.cardProductDetails {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+}
+
+.boxScore {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.boxScore span {
+  font-size: 13px;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+
+.boxDates {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+.boxPriceDetails {
+  padding-bottom: 24px;
+}
+
+.p {
+  font-size: 13px;
+}
+
+.h5 {
+  margin-bottom: 16px;
+}
+
+.boxButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+.btnCta {
+  display: flex;
+  justify-content: center;
+  background-color: #4a6ac9 !important;
+  border: none;
+  color: var(--white) !important;
+  border-radius: 8px;
+  cursor: pointer;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  width: 100%;
+  font-size: 16px;
+}
+
+.boxSolicitud {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnSecondary {
+  color: #3a3939;
+}
+
+.steps{
+    padding-bottom: 32px;
+}
+
+.boxEnd{
+    order: 2;
+}
+
+@media screen and (min-width: 1024px) {
+  .boxSolicitud {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .boxResume {
+    order: 1;
+  }
+
+  .boxEnd {
+    width: 30%;
+  }
+
+  .boxButtons {
+    width: 50%;
+    flex-direction: row;
+  }
+
+  .btnSecondary{
+    width: 100%;
+  }
+
+  .cardProductDetails, .boxPriceDetails{
+    background-color: var(--white);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    box-shadow: 0px 0px 8px 0px rgba(209, 209, 209, 1);
+    border-radius: 4px;
+  }
+
+  .boxPriceDetails{
+    margin-top: 8px;
+  }
+
+  .boxPersonalInfo{
+    width: 70%;
+  }
+}

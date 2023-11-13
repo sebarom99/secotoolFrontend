@@ -1,0 +1,189 @@
+.titleDetails {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.boxInfoProduct {
+  border-radius: 12px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxPrecioFechas {
+  border: 1px solid #c2c2c2;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+.boxCalendarTop {
+  border-bottom: 1px solid #c2c2c2;
+  width: 100%;
+}
+
+.titleSm {
+  font-size: 13px;
+  color: #747474;
+}
+
+.boxTexts {
+  padding: 16px;
+}
+
+.textPrecio {
+  font-size: 33px;
+  color: #3a3939;
+}
+
+.boxCalendar {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.boxInfoProductBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxShareProduct {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxShareProduct button {
+  align-self: flex-start;
+}
+
+.boxShareProduct h1 {
+  margin: 0px;
+}
+
+.boxShareProduct i {
+  font-size: 16px;
+}
+
+.sectionPoliticas h4 {
+  text-decoration: underline;
+}
+
+.boxProgressLines {
+  width: 100%;
+}
+
+.sectionVal {
+  padding-bottom: 32px;
+}
+
+.listReviews {
+  padding-left: 0px;
+}
+
+.buttonCta {
+  display: flex;
+  justify-content: center;
+  background-color: #4a6ac9 !important;
+  border: none;
+  color: var(--white) !important;
+  border-radius: 8px;
+  cursor: pointer;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.buttonCtaDisabled {
+  display: flex;
+  justify-content: center;
+  background-color: #4a6ac9 !important;
+  border: none;
+  color: var(--white) !important;
+  border-radius: 8px;
+  cursor: pointer;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 768px) {
+  .boxInfoProduct {
+    margin-bottom: 24px;
+    border: 1px solid #c2c2c2;
+    padding: 0px 24px;
+  }
+  .containerVal {
+    gap: 16px;
+  }
+
+  .boxShareProduct {
+    padding-top: 16px;
+    padding-bottom: 8px;
+  }
+
+  .boxShareProduct i {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .titleDetails {
+    font-size: 23px;
+  }
+
+  .boxInfoProductBottom {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .boxInfoProduct {
+    padding: 32px;
+  }
+  .boxInfoProductBottomStart {
+    width: 60%;
+  }
+  .boxInfoProductBottomEnd {
+    width: 40%;
+    background-color: var(--white);
+    padding: 16px;
+    box-shadow: 0px 0px 8px 0px rgba(209, 209, 209, 1);
+    border-radius: 4px;
+  }
+  .boxPrecioFechas {
+    margin: 0;
+  }
+
+  .boxList {
+    width: 60%;
+  }
+
+  .stickyEnd {
+    position: fixed;
+    bottom: 42%;
+    left: 58%;
+    z-index: 1;
+    width: 27%;
+  }
+
+  .boxShareProduct {
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
+
+  .boxShareProduct h1 {
+    margin-top: 0px;
+  }
+
+  .boxShareProduct i {
+    font-size: 32px;
+  }
+}

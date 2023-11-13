@@ -1,0 +1,29 @@
+.avatarLg, .avatarSm{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatarLg{
+    width: 120px;
+    height: 120px;
+    background-color: #EDD789;
+}
+
+.avatarSm{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(58, 57, 57, 54%);
+}
+
+.avatarLg .iniciales{
+    font-size: 33px;
+    color: #CAAA09;
+    font-weight: 600;
+}
+
+.avatarSm .iniciales{
+    font-size: 13px;
+    color: var(--white);
+}

@@ -1,0 +1,12 @@
+.listCategorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.containerCardLink {
+  padding: 0px !important;
+}

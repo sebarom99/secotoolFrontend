@@ -1,0 +1,93 @@
+.containerFormBusqueda {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 5px;
+  z-index: 1;
+  width: 100%;
+  min-height: 40px;
+}
+
+.inputBuscador {
+  background-color: white;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 40px;
+}
+
+.inputDate {
+  background-color: white;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 40px;
+}
+
+.divSearchBar {
+  width: 100%;
+  min-height: 40px;
+}
+
+.btnBrowser {
+  padding: 8px 0;
+  height: 5vh;
+  background-color: var(--color-primary);
+  color: var(--dark);
+  border-radius: 8px;
+  width: 100%;
+  min-height: 40px;
+}
+
+/*Breakpoints*/
+@media screen and (min-width: 360px) {
+  .containerFormBusqueda {
+    flex-direction: column;
+    width: 90%;
+  }
+  .btnBrowser {
+    width: 90%;
+  }
+
+  .inputBuscador {
+    width: 90%;
+  }
+  .inputDate {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .containerFormBusqueda {
+    flex-direction: column;
+    width: 80%;
+  }
+  .btnBrowser {
+    width: 100%;
+  }
+
+  .inputBuscador {
+    width: 100%;
+  }
+  .inputDate {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .containerFormBusqueda {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .btnBrowser {
+    width: 20%;
+  }
+
+  .inputBuscador {
+    width: 50%;
+  }
+  .inputDate {
+    min-width: 290px;
+    width: 30%;
+  }
+}

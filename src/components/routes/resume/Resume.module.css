@@ -1,0 +1,13 @@
+.boxDescription p{
+    font-size: 13px;
+}
+
+@media screen and (min-width: 1024px) {
+    .boxDescription p, .h5{
+        font-size: 16px;
+    }
+
+    .sectionResume h4{
+        font-size: 23px;
+    }
+}

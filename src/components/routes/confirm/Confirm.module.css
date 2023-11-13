@@ -1,0 +1,15 @@
+.boxConfirm h4{
+    font-size: 23px;
+}
+
+.boxConfirm ul{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 32px;
+}
+
+.boxConfirm ul li i{
+    margin-right: 8px;
+}

@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 44%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 32px;
+}
+
+label {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-size: 16px;
+  gap: 8px;
+}
+
+input {
+  width: 100%;
+  border-radius: 8px;
+  background: none;
+  border: solid 1px var(--darkGrey);
+  height: 5vh;
+  padding: 0;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 8px;
+  background: none;
+  border: solid 1px var(--darkGrey);
+  height: 15vh;
+  resize: none;
+  padding: 0;
+}
+
+.uploadImage {
+  width: 100%;
+  border-radius: 8px;
+  background: none;
+  border: 1px dashed grey;
+  height: 5vh;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.addProduct {
+  border-radius: 8px;
+  background-color: #45a42d;
+  color: white;
+  width: 100%;
+  border: none;
+  height: 5vh;
+  padding: 0 4px;
+  margin-top: 32px;
+}

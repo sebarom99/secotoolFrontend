@@ -1,0 +1,22 @@
+.contenedorLista {
+  width: 100%;
+}
+
+.contenedorCard{
+  height: 100%;
+}
+
+.listProducts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.paginationList {
+  align-self: center;
+  padding-bottom: 32px;
+}

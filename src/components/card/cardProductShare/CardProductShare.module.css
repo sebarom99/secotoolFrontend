@@ -1,0 +1,27 @@
+.cardProductShare{
+    display: flex;
+    flex-direction: column;
+    background-color: #fdfdfd;
+    padding: 24px;
+    box-shadow: 0px 0px 8px 0px  rgb(226 226 226);;
+    border-radius: 4px;
+    width: auto;
+    border: 1px solid  rgb(230, 230, 230);
+}
+
+.cardProductShare img{
+    width: 312px;
+    height: 234px;
+    align-self: center;
+}
+
+.cardProductShare a{
+    text-decoration: underline;
+    color: #4a6ac9;
+}
+
+@media screen and (min-width: 1440px) {
+    .cardProductShare{
+        width: 60%;
+    }
+}

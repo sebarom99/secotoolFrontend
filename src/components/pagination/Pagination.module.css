@@ -1,0 +1,19 @@
+.containerPagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-self: center;
+}
+
+.containerPagination button{
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .containerPagination {
+    gap: 24px;
+  }
+}

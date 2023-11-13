@@ -1,0 +1,44 @@
+.listPoliticas {
+  padding-left: 0px;
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.listPoliticas li {
+  padding: 8px;
+  width: 48%;
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+}
+
+.listPoliticas li h5 {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.titleDetails {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1440px) {
+  .titleDetails {
+    font-size: 23px;
+  }
+  .listPoliticas li,
+  .listPoliticas li h5 {
+    font-size: 19px;
+  }
+
+  .listPoliticas li {
+    padding: 16px;
+  }
+
+  .listPoliticas li h5{
+    padding-top: 16px;
+    margin: 0px;
+  }
+
+}
