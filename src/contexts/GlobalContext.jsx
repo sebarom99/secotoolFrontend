@@ -3,7 +3,7 @@ import { createContext, useContext, useState } from 'react';
 const GlobalContext = createContext();
 
 export const GlobalProvider = ({ children }) => {
-  const [globalVariable, setGlobalVariable] = useState("http://localhost:8080");
+  const [globalVariable, setGlobalVariable] = useState("http://3.208.9.44:8080");
 
   return (
     <GlobalContext.Provider value={{ globalVariable, setGlobalVariable }}>
