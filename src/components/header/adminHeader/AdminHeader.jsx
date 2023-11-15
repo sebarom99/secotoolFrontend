@@ -2,13 +2,13 @@ import styles from "../adminHeader/AdminHeader.module.css";
 import Logo from "../../../assets/img/LogoMovile.png";
 import { NavLink } from "react-router-dom";
 import "../../../index.css";
-import "../../../app.css";
+import "../../../App.css";
 import { useAuth } from "../../../contexts/AuthContext";
 
 const AdminHeader = () => {
   const { logout } = useAuth();
   return (
-    <header className="spacing-grid">
+    <div className="spacing-grid">
       <nav className={styles.navbar}>
         <div>
           <NavLink to="/admin/home" className={styles.leftNavbar}>
@@ -75,7 +75,7 @@ const AdminHeader = () => {
           </div>
         </div>
       </nav>
-    </header>
+    </div>
   );
 };
 
