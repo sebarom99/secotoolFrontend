@@ -8,7 +8,7 @@ import EditCategoryModal from "../../editCategoryModal/EditCategoryModal";
 import { Snackbar, Alert } from "@mui/material";
 import { useGlobal } from "../../../contexts/GlobalContext";
 import { useAuth } from "../../../contexts/AuthContext";
-import EsqueletorAdmin from "../../EsqueletorAdmin/EsqueletorAdmin";
+import EsqueletorAdmin from "../../esqueletorAdmin/EsqueletorAdmin";
 
 const Categories = () => {
   const { globalVariable } = useGlobal();
