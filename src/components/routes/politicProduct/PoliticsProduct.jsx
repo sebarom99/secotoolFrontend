@@ -8,7 +8,7 @@ import ModalEditarPolitica from "./ModalEditarPolitica";
 import axios from "axios";
 import { useAuth } from "../../../contexts/AuthContext";
 import { useGlobal } from "../../../contexts/GlobalContext";
-import EsqueletorAdmin from "../../EsqueletorAdmin/EsqueletorAdmin";
+import EsqueletorAdmin from "../../esqueletorAdmin/EsqueletorAdmin";
 
 const PoliticsProduct = () => {
   //------------------------------ CONFIG MODALS--------------->
