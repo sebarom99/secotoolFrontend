@@ -6,7 +6,7 @@ import Footer from "../../components/footer/Footer";
 import { useAuth } from "../../contexts/AuthContext";
 import Features from "../../components/routes/features/Features";
 import Categories from "../../components/routes/categories/Categories";
-import UsersAdmin from "../../components/routes/usersAdmin/UsersAdmin";
+import UsersAdmin from "../../components/routes/UsersAdmin/UsersAdmin";
 import Politicas from "../../components/routes/politicProduct/PoliticsProduct"
 
 const AppRoutesAdmin = () => {
