@@ -8,7 +8,7 @@ import EditFeatureModal from "../../editFeatureModal/EditFeatureModal";
 import { useAuth } from "../../../contexts/AuthContext";
 import { Snackbar, Alert } from "@mui/material";
 import { useGlobal } from "../../../contexts/GlobalContext";
-import EsqueletorAdmin from "../../EsqueletorAdmin/EsqueletorAdmin";
+import EsqueletorAdmin from "../../esqueletorAdmin/EsqueletorAdmin";
 
 // const icons = [
 //   {
