@@ -1,6 +1,8 @@
 import stylesHeader from "./Header.module.css";
 import NavBarHeader from "../navbar/NavBarHeader";
 import { useMediaQuery } from "@react-hook/media-query";
+import barraDesktop from "../../assets/img/barra-desktop.png"
+import barraTablet from "../../assets/img/barra-mobile-tablet.png"
 
 function Header() {
 
@@ -8,8 +10,8 @@ function Header() {
 
   return (
     <header className={stylesHeader.headerDefault}>
-      {isScreenSmall ? <img src="../../src/assets/img/barra-mobile-tablet.png" /> :
-      <img src="../../src/assets/img/barra-desktop.png" />}
+      {isScreenSmall ? <img src={barraTablet} /> :
+      <img src={barraDesktop} />}
         <NavBarHeader></NavBarHeader>
     </header>
   );
