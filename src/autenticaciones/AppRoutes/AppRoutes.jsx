@@ -14,7 +14,7 @@ const AppRoutes = () => {
   const { isLoggedIn } = useAuth();
 
   return (
-    <body>
+    <div>
       <Header />
       <main className="spacing-grid">
         <Routes>
@@ -31,7 +31,7 @@ const AppRoutes = () => {
         </Routes>
       </main>
       <Footer className="footer" />
-    </body>
+    </div>
   );
 };
 
