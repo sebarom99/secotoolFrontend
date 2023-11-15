@@ -1,10 +1,10 @@
-import styles from "../usersAdmin/UsersAdmin.module.css";
+import styles from "../UsersAdmin/UsersAdmin.module.css";
 import { useEffect, useState } from "react";
 import UsersAdminCard from "../../adminUserCard/UsersAdminCard";
 import Pagination from "../../pagination/Pagination";
 import { useAuth } from "../../../contexts/AuthContext";
 import { useGlobal } from "../../../contexts/GlobalContext";
-import EsqueletorAdmin from "../../EsqueletorAdmin/EsqueletorAdmin";
+import EsqueletorAdmin from "../../esqueletorAdmin/EsqueletorAdmin";
 
 const UsersAdmin = () => {
   const { token } = useAuth();
