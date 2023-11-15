@@ -8,8 +8,8 @@ function Header() {
 
   return (
     <header className={stylesHeader.headerDefault}>
-      {isScreenSmall ? <img src="../src/assets/img/barra-mobile-tablet.png" /> :
-      <img src="../src/assets/img/barra-desktop.png" />}
+      {isScreenSmall ? <img src="../../src/assets/img/barra-mobile-tablet.png" /> :
+      <img src="../../src/assets/img/barra-desktop.png" />}
         <NavBarHeader></NavBarHeader>
     </header>
   );
