@@ -13,7 +13,7 @@ const AppRoutesAdmin = () => {
   const { user } = useAuth();
 
   return (
-    <body>
+    <div>
         <AdminHeader />
       <main className="spacing-grid">
         <Routes>
@@ -32,7 +32,7 @@ const AppRoutesAdmin = () => {
         </Routes>
       </main>
       <Footer className="footer" />
-    </body>
+    </div>
   );
 };
 
