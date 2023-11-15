@@ -8,7 +8,7 @@ import FormNewProduct from "../../form/formNewProduct/FormNewProduct";
 import FormEditProduct from "../../form/FormEditProduct";
 import { useAuth } from "../../../contexts/AuthContext";
 import { useGlobal } from "../../../contexts/GlobalContext";
-import EsqueletorAdmin from "../../EsqueletorAdmin/EsqueletorAdmin";
+import EsqueletorAdmin from "../../esqueletorAdmin/EsqueletorAdmin";
 
 const HomeAdmin = () => {
   //----------------------------TRAE TODOS LOS PRODUCTOS----------------------------->
